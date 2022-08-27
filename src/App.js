@@ -140,12 +140,12 @@ export default function App() {
                             <div className="row mb-2 mt-3">
                                 <div className="col text-start">
                                     <button className="btn btn-outline-warning btn-sm" onClick={limparLista}>
-                                        <FontAwesomeIcon icon={faTrash} className='me-2' />
+                                        <FontAwesomeIcon icon={faTrash} className='me-1' />
                                         Limpar</button>
                                 </div>
                                 <div className="col text-end">
                                     <button className="btn btn-outline-info btn-sm" onClick={adicionar}>
-                                        <FontAwesomeIcon icon={faAdd} className='me-2' />
+                                        <FontAwesomeIcon icon={faAdd} className='me-1' />
                                         Adicionar</button>
                                 </div>
                             </div>
